@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "company",
+      "type": "com.loja_virtual.company.CompanyConfig",
+      "sourceType": "com.loja_virtual.company.CompanyConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "company.city",
+      "type": "java.lang.String",
+      "sourceType": "com.loja_virtual.company.CompanyConfig"
+    },
+    {
+      "name": "company.country",
+      "type": "java.lang.String",
+      "sourceType": "com.loja_virtual.company.CompanyConfig"
+    },
+    {
+      "name": "company.namecompany",
+      "type": "java.lang.String",
+      "sourceType": "com.loja_virtual.company.CompanyConfig"
+    }
+  ],
+  "hints": []
+}
