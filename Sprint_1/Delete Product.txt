@@ -1,0 +1,7 @@
+	@DeleteMapping("/delete/{code}") // Serve para remover um produto
+	public void deleteProduct(@PathVariable String code) {
+		Product product = productRepository.findByCode(code);
+		if (product != null) {
+			productRepository.delete(product);
+		}
+	}
